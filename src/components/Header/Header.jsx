@@ -5,16 +5,21 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="App-header">
-      <nav>
+    <header>
+      <nav className="App-header">
         <img className="App-header__logo" src={logo} alt="logo" />
-        <Link to="first">First</Link>
-        <Link to="click"
+        <Link
+          className="App-link App-header__item"
+          to="first">First
+        </Link>
+        <Link
+          to="click"
           className="App-link App-header__item"
         >
         Click
         </Link>
-        <Link to="rcomponent"
+        <Link
+          to="rcomponent"
           className="App-link App-header__item"
         >
         RComponent
