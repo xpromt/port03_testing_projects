@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.container.first {
+  min-height: 50vh;
+  min-width: 50vw;
+  line-height: 50vh;
+  background-color: yellow;
+}
