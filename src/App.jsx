@@ -13,7 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element = {<AnimatedForm />} />
-          <Route path="first" element = {<AnimatedForm />} />
+          <Route path="AnimatedForm" element = {<AnimatedForm />} />
           <Route path="click" element = {<Click />} />
           <Route path="rcomponent" element = {<RComponent />} />
           <Route path="*" element = {<WrongPage />} />

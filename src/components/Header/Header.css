@@ -17,7 +17,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  font-size: 3vmin;
+  font-size: 2vmin;
   color: white;
 }
 
@@ -30,10 +30,19 @@
   color: #61dafb;
   text-decoration: none;
 }
+
+.active {
+  padding: 5px;
+  background-color: darkslategray;
+  font-weight: bold;
+}
+
 .App-link:hover {
   text-decoration: underline;
 }
+
 .App-link:active {
+  color: white;
   text-decoration: underline;
 }
 
@@ -44,4 +53,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-header_tooltip{
+  background-color: silver;
+  min-height: 2vh;
+  justify-content: flex-center;
+  font-size: 1.5vmin;
+  color: white;
 }
